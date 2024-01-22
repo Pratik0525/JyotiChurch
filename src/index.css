@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.linercolor {
+  background-image: linear-gradient(
+    to right,
+    rgb(75, 107, 215),
+    rgb(186, 116, 174)
+  );
+}
+.linercolor1 {
+  background-image: linear-gradient(
+    to right,
+    rgb(75, 107, 215),
+    rgb(238, 137, 240)
+  );
+}
+.dsad {
+  font-family: roboto;
+}
+.text {
+  font-family: roboto;
+}
+.latest {
+  font-family: rubik;
+}
+.pratik {
+  font-family: Open Sans;
+}
+.box {
+  --mask: radial-gradient(
+        92.92px at 50% calc(100% - 115.7px),
+        #000 99%,
+        #0000 101%
+      )
+      calc(50% - 178px) 0/356px 100%,
+    radial-gradient(92.92px at 50% calc(100% + 26.7px), #0000 99%, #000 101%)
+      50% calc(100% - 89px) / 356px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+.bor-rad {
+  border-radius: 114px 134px 132px 145px;
+}
